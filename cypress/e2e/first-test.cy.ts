@@ -1,6 +1,6 @@
 describe('Cypress test', () => {
   it('should find my name', () => {
     cy.visit('/');
-    cy.contains('Braulio');
+    cy.contains('Hello');
   });
 });
